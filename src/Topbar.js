@@ -5,7 +5,7 @@ function Topbar(props) {
   return (
     <div className="Topbar">
       <div id="greeting-container">
-        <div id="greeting">Hello! How are you</div>
+        <h1>Potosu</h1>
       </div>
 
       <button className="newPlantButton" onClick={() => props.onClick(true)}>

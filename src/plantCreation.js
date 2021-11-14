@@ -25,14 +25,15 @@ function PlantCreation({
         <div>Add a new member to your plant family!</div>
         <div>
           <button className="close-btn" onClick={() => setTrigger(false)}>
-            Close
+            X
           </button>
         </div>
         {children}
       </div>
       <form className="forms" onSubmit={handleSubmit}>
-        <label>name</label>
+        <label>Name</label>
         <input
+          className="inputBox"
           type="text"
           placeholder="Gary"
           value={plant.name}
@@ -43,21 +44,24 @@ function PlantCreation({
             });
           }}
         ></input>
-        <label>species</label>
+        <label>Species</label>
         <input
+          className="inputBox"
           type="text"
           placeholder="Cactus"
           value={plant.species}
           onChange={(e) => onChange({ ...plant, species: e.target.value })}
         ></input>
-        <label>I need watering every </label>
+        <label>I need watering every...</label>
         <input
+          className="inputBox"
           type="text"
           placeholder="2"
           value={plant.wateringNum}
           onChange={(e) => onChange({ ...plant, wateringNum: e.target.value })}
         ></input>
         <select
+          className="selectBox"
           value="wateringFreq"
           onChange={(e) => onChange({ ...plant, wateringFreq: e.target.value })}
         >
@@ -65,7 +69,9 @@ function PlantCreation({
           <option value="weeks">weeks</option>
           <option value="months">months</option>
         </select>
-        <button>Save</button>
+        <button
+          className="save-Btn"
+        >Save</button>
       </form>
     </div>
   ) : (
