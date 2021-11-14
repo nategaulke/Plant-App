@@ -23,7 +23,7 @@ function PlantCreation({
     <div className="plantCreation">
       <div className="creationContainer">
         <div className="plantCreation-inner">
-          <div>Add a new member to your plant family!</div>
+          <h3 className="popUpText">Add a new member to your plant family!</h3>
           <div>
             <button className="close-btn" onClick={() => setTrigger(false)}>
               X

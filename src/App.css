@@ -147,6 +147,10 @@ h1 {
   color: #eeeaab;
 }
 
+.popUpText {
+  color: #35341c;
+}
+
 .container {
   display: flex;
   flex-direction: row;
