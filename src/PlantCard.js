@@ -1,3 +1,10 @@
+import {
+  Card,
+  CardContent,
+  Button
+} from '@mui/material';
+import SocialMediaButtons from './SocialMediaButtons';
+
 function PlantCard(props) {
   return (
     <Button
@@ -7,7 +14,8 @@ function PlantCard(props) {
         <CardContent className="card_body">
           <img alt={props.title} className="card_photo" src={props.img} />
           <h2 className="card_title">{props.title}</h2>
-          {/* <p className="card_description">{props.description}</p> */}
+          <p className="card_description">{props.description}</p>
+          <SocialMediaButtons />
         </CardContent>
       </Card>
     </Button>

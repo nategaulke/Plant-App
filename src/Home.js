@@ -1,5 +1,8 @@
 import React from "react";
 import "./App.css";
+import "./PlantCard"
+import PlantCard from "./PlantCard";
+import plantImg from "./images/plant.jpg";
 
 const Home = ({ plants }) => {
   // const newplants = JSON.parse(db.plants);
@@ -24,10 +27,15 @@ const Home = ({ plants }) => {
   return (
     <div className="home">
       {plants.map((plant) => (
-        <div className="plantPreview" key={plant.id}>
-          <h2>{plant.name}</h2>
-          <p>{plant.species}</p>
-        </div>
+        <PlantCard
+          img={plantImg}
+          title={plant.name}
+          description={plant.species}
+        />
+        // <div className="plantPreview" key={plant.id}>
+        //   <h2>{plant.name}</h2>
+        //   <p>{plant.species}</p>
+        // </div>
       ))}
     </div>
   );
