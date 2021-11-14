@@ -34,6 +34,13 @@
       "wateringNum": "2",
       "wateringFreq": "weeks",
       "id": 9
+    },
+    {
+      "name": "wuwuw",
+      "species": "sss",
+      "wateringNum": "5",
+      "wateringFreq": "",
+      "id": 10
     }
   ]
 }

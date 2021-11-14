@@ -1,10 +1,12 @@
 import React from "react";
 import "./App.css";
+import PotosuWithLeaf from "./images/PotosuWithLeaf.jpg";
 
 function Sidebar() {
   return (
     <div className="Sidebar">
       <br />
+      <img alt={"PotosuWithLeaf"} className="mainPhoto" src={PotosuWithLeaf} />
       <h2 className="sideText">3 days</h2>
       <h3 className="sideText">until next watering</h3>
       <br />
