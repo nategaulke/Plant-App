@@ -1,0 +1,46 @@
+{
+  "plants": [
+    {
+      "name": "Gary",
+      "species": "cacti",
+      "wateringNum": "4",
+      "wateringFreq": "days",
+      "id": 1
+    },
+    {
+      "name": "Ferri",
+      "species": "fern",
+      "wateringNum": "3",
+      "wateringFreq": "months",
+      "id": 2
+    },
+    {
+      "name": "rob",
+      "species": "cacti",
+      "wateringNum": "3",
+      "wateringFreq": "weeks",
+      "id": 6
+    },
+    {
+      "name": "amasha",
+      "species": "cacati",
+      "wateringNum": "3",
+      "wateringFreq": "weeks",
+      "id": 7
+    },
+    {
+      "name": "nicole",
+      "species": "cactus",
+      "wateringNum": "3",
+      "wateringFreq": "weeks",
+      "id": 8
+    },
+    {
+      "name": "nate",
+      "species": "fern",
+      "wateringNum": "2",
+      "wateringFreq": "weeks",
+      "id": 9
+    }
+  ]
+}
