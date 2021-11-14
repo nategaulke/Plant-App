@@ -52,7 +52,7 @@ function PlantCreation({
         ></input>
         <label>I need watering every </label>
         <input
-          type="text"
+          type="number"
           placeholder="2"
           value={plant.wateringNum}
           onChange={(e) => onChange({ ...plant, wateringNum: e.target.value })}
