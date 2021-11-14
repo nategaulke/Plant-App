@@ -179,12 +179,12 @@ h1 {
 }
 
 .card_title {
-  padding: 1rem;
+  padding: 0.1 rem;
   color: #34331c;
 }
 
 .card_description {
-  padding: 0 1rem;
+  padding: 0 0.25rem;
   color: #34331c;
 }
 
