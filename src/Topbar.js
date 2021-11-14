@@ -1,11 +1,12 @@
 import React from "react";
 import "./App.css";
+import PotosuPic from "./images/Potosu.png";
 
 function Topbar(props) {
   return (
     <div className="Topbar">
       <div id="greeting-container">
-        <h1>Potosu</h1>
+        <img className="logo" src={PotosuPic} />
       </div>
 
       <button className="newPlantButton" onClick={() => props.onClick(true)}>
