@@ -4,8 +4,8 @@ function SocialMediaButtons(props) {
   return (
     <FacebookShareButton
       url={"https://github.com/nategaulke/plant-app/"}
-      quote={props.description}
-      hashtag={"#folium"}
+      quote="So proud of my plant baby that I grew using Potosu!"
+      hashtag={"#Potosu"}
       className={SocialMediaButtons}
     >
       <FacebookIcon size={36} />

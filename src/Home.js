@@ -4,6 +4,9 @@ import moment from "moment";
 import CountDownMonths from "./CountDownMonths";
 moment().format();
 console.log(moment());
+import "./PlantCard";
+import PlantCard from "./PlantCard";
+import plantImg from "./images/plant.jpg";
 
 const Home = ({ plants }) => {
   // const [currentTime, setCurrentTime] = useState(moment());
@@ -20,7 +23,17 @@ const Home = ({ plants }) => {
             num={plant.wateringNum}
             freq={plant.wateringFreq}
           ></CountDownMonths>
+          <PlantCard
+            img={plantImg}
+            title={plant.name}
+            description={plant.species}
+          />
         </div>
+
+        // <div className="plantPreview" key={plant.id}>
+        //   <h2>{plant.name}</h2>
+        //   <p>{plant.species}</p>
+        // </div>
       ))}
     </div>
   );
