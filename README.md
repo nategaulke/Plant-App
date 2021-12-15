@@ -16,6 +16,14 @@ React, Javascript, Figma
 We're thinking about expanding this idea to a mobile app in the future, and adding more ways to share your journey as a plant parent!
 ## How to Run
 Clone this repository to your computer and change directory to folder
+
 Run `npm - start`
+
 Run `npx json-server --watch src/db.json --port 8000` on a new command line
+
 Open "http://localhost:3000/" to see the app
+
+## Credits
+* [Nathanael Gaulke](https://github.com/nategaulke)
+* [Amasha Rajaguru](https://github.com/aMarshmallows)
+* [Nicole Estelle Wright](https://github.com/nicoleleft)
