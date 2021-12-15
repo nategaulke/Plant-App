@@ -1,4 +1,4 @@
-# Potosu - Knight Hacks 2021 Project
+# Potosu - [Knight Hacks 2021 Project](https://devpost.com/software/potosu)
 This plant care app helps a person keep track of the plants they take care, logging the plant's species and how frequently it should be watered. It even allows the user to put a name for the plant!
 ## Inspiration
 It can be easy to forget to take care of yourself. Learning how to take care of plants is a relaxing, mindful way to center yourself and relieve stress. Potosu is the Japanese word for Pothos, a house plant that is usually the very first that a beginner plant parent buys because of how easy it is to take care of. It is beloved by many (including us) and we wanted to portray that exciting feeling of getting started in plant care, and make it easier for those just starting out as well as those who already love taking care of plants.
